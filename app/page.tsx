@@ -8,6 +8,41 @@ import Bast from "./components/Bast";
 import Promo from "./components/Promo";
 import Card from "./components/Card";
 import Footer from "./components/Footer";
+import SchemaAutoHelp from "./components/SchemaAutoHelp";
+import ServiceSchema from "./components/ServiceShema";
+
+export const metadata = {
+  title: "Эвакуатор Кривое Озеро, Любашевка, Ширяево — 24/7 срочный выезд",
+  description:
+    "Эвакуатор в Кривом Озере, Любашевке и Ширяево. Быстрая подача за 15–30 минут. Работаем круглосуточно 24/7. Помощь при ДТП, поломке и перевозке авто.",
+  keywords: [
+    "эвакуатор Кривое Озеро",
+    "эвакуатор Любашевка",
+    "эвакуатор Ширяево",
+    "вызвать эвакуатор",
+    "эвакуация авто 24/7",
+  ],
+  alternates: {
+    canonical: "https://statuesque-cascaron-264f9a.netlify.app",
+  },
+  openGraph: {
+    title: "AutoHelp 24 — Эвакуатор 24/7",
+    description:
+      "Срочная эвакуация автомобилей в Кривом Озере и области.",
+    url: "https://statuesque-cascaron-264f9a.netlify.app/",
+    siteName: "AutoHelp 24",
+    images: [
+      {
+        url: "https://statuesque-cascaron-264f9a.netlify.app/images/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Эвакуатор AutoHelp 24",
+      },
+    ],
+    locale: "ru_UA",
+    type: "website",
+  },
+};
 
 export default function Home() {
   return (
@@ -32,6 +67,8 @@ export default function Home() {
         <YellowButton href="tel:+380673755331">Эвакуатор</YellowButton>
       </div>
       <Footer />
+      <SchemaAutoHelp />
+      <ServiceSchema />
     </>
   );
 }

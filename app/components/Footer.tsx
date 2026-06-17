@@ -29,6 +29,12 @@ export default function Footer() {
             <p>80 <span className="text-yellow-400 text-lg font-bold">[</span> 098 <span className="text-yellow-400 text-lg font-bold">]</span> 610-89-95</p>
           </a>
         </h3>
+        <h3 className="text-sm font-normal mb-4  mx-auto text-wrap mt-10 max-w-xl mx-auto text-balance text-yellow-400">
+          <a href="mailto:eavtoservice@gmail.com">
+            <p>eavtoservice@gmail.com</p>
+          </a>
+        </h3>
+        
         <p className="text-center text-sm text-gray-600">
           © {new Date().getFullYear()} E95 Auto Service. Все права защищены.
         </p>
