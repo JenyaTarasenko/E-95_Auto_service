@@ -47,7 +47,7 @@ export const metadata = {
     siteName: "Е-95 AVTOSERVICE",
     images: [
       {
-        url: "https://joyful-blini-28a6ab.netlify.app//images/og.png",
+        url: "https://joyful-blini-28a6ab.netlify.app/images/og.png",
         width: 1200,
         height: 630,
         alt: "Эвакуатор AutoHelp 24",

@@ -2,11 +2,12 @@ export default function SchemaAutoHelp() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
-    name: "E-95 AutoHelper",
+    name: "E-95 AUTOSERVICE",
     description:
       "Эвакуатор 24/7 на трассе М-05 Одесса–Киев. Срочная эвакуация автомобилей, помощь на дороге, запуск двигателя, доставка топлива и круглосуточная автопомощь в Одесской области.",
-    url: "https://e95autohelper.com",
+    url: "https://joyful-blini-28a6ab.netlify.app/",
     telephone: "+380688505078",
+    email: "mailto:eavtoservice@gmail.com",
 
     address: {
       "@type": "PostalAddress",

@@ -5,12 +5,12 @@ export default function ServiceSchema() {
     const data = {
         "@context": "https://schema.org",
         "@type": "Service",
-        serviceType: "Эвакуатор круглосуточно",
+        serviceType: "Эвакуатор круглосуточно такси помощь в дороге",
         provider: {
             "@type": "AutoRepair",
             name: "E-95AVTOSERVICE",
             telephone: "+380688505078",
-            url: "https://statuesque-cascaron-264f9a.netlify.app/",
+            url: "https://joyful-blini-28a6ab.netlify.app/",
             email: "mailto:eavtoservice@gmail.com",
         },
         areaServed: [
