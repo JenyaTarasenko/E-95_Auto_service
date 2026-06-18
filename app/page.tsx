@@ -37,17 +37,17 @@ export const metadata = {
     "СТО 24/7",
   ],
   alternates: {
-    canonical: "https://statuesque-cascaron-264f9a.netlify.app",
+    canonical: "https://joyful-blini-28a6ab.netlify.app/",
   },
   openGraph: {
     title: "Е-95 AVTOSERVICE, такси, эвакуатор 24/7",
     description:
       "Срочная эвакуация , такси трасса Е-95",
-    url: "https://statuesque-cascaron-264f9a.netlify.app/",
+    url: "https://joyful-blini-28a6ab.netlify.app/",
     siteName: "Е-95 AVTOSERVICE",
     images: [
       {
-        url: "https://statuesque-cascaron-264f9a.netlify.app/images/og.png",
+        url: "https://joyful-blini-28a6ab.netlify.app//images/og.png",
         width: 1200,
         height: 630,
         alt: "Эвакуатор AutoHelp 24",
