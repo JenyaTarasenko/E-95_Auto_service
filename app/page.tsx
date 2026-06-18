@@ -10,9 +10,10 @@ import Card from "./components/Card";
 import Footer from "./components/Footer";
 import SchemaAutoHelp from "./components/SchemaAutoHelp";
 import ServiceSchema from "./components/ServiceShema";
+import Call from "./components/Call";
 
 export const metadata = {
-  title: "Эвакуатор Кривое Озеро, Любашевка, Ширяево — 24/7 срочный выезд",
+  title: "Эвакуатор,такси, Е-95 АвтоСервис ",
   description:
     "Эвакуатор в Кривом Озере, Любашевке и Ширяево. Быстрая подача за 15–30 минут. Работаем круглосуточно 24/7. Помощь при ДТП, поломке и перевозке авто.",
   keywords: [
@@ -21,16 +22,29 @@ export const metadata = {
     "эвакуатор Ширяево",
     "вызвать эвакуатор",
     "эвакуация авто 24/7",
+    "такси Кривое Озеро",
+    "такси Любашевка",
+    "такси Ширяево",
+    "вызвать такси",
+    "такси 24/7",
+    "автосервис Кривое Озеро",
+    "автосервис Любашевка",
+    "автосервис Ширяево",
+    "автосервис 24/7",
+    "СТО Кривое Озеро",
+    "СТО Любашевка",
+    "СТО Ширяево",
+    "СТО 24/7",
   ],
   alternates: {
     canonical: "https://statuesque-cascaron-264f9a.netlify.app",
   },
   openGraph: {
-    title: "AutoHelp 24 — Эвакуатор 24/7",
+    title: "Е-95 AVTOSERVICE, такси, эвакуатор 24/7",
     description:
-      "Срочная эвакуация автомобилей в Кривом Озере и области.",
+      "Срочная эвакуация , такси трасса Е-95",
     url: "https://statuesque-cascaron-264f9a.netlify.app/",
-    siteName: "AutoHelp 24",
+    siteName: "Е-95 AVTOSERVICE",
     images: [
       {
         url: "https://statuesque-cascaron-264f9a.netlify.app/images/og.png",
@@ -69,6 +83,7 @@ export default function Home() {
       <Footer />
       <SchemaAutoHelp />
       <ServiceSchema />
+      <Call />
     </>
   );
 }

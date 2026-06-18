@@ -8,12 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AUTO HELP - Эвакуатор круглосуточно 24/7",
+  title: "Е-95 AVTOSERVICE - такси, эвакуатор 24/7",
   description: "Эвакуация авто в Ананьевском районе. Быстрая подача за 15–30 минут. Работаем круглосуточно 24/7. Помощь при ДТП, поломке и перевозке авто",
   metadataBase: new URL("https://autohelp.od.ua"),
-  icons: {
-    icon: "/icon.png",
-  },
   verification: {
     google: "FBsV2eJ9g6DNvUrebMG29uGdsZBevA-6Qzo7qar8xfE",
   },
