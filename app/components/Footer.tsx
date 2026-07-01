@@ -18,7 +18,7 @@ export default function Footer() {
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4">
         <h2 className="text-xl md:text-6xl font-light leading-tight uppercase max-w-3xl mx-auto">
-              <span className="font-black text-yellow-400">Эвакуатор</span> <br /><span className="font-black text-yellow-400">такси</span> круглосуточно трасса <span className="font-black text-yellow-400">Е95</span>
+              <span className="font-black text-yellow-400">Эвакуатор</span> <br /><span className="font-black text-yellow-400">такси, CТО</span> круглосуточно <span className="font-black text-yellow-400">Е95</span>
         </h2>
 
         <h3 className="text-sm font-normal mb-4  mx-auto text-wrap mt-10 max-w-xl mx-auto text-balance text-gray-100">

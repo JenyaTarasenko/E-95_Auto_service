@@ -15,10 +15,10 @@ export default function Hero() {
                 Услуги <span className="text-yellow-400 font-black text-xl">//</span> Эвакуатора Такси <span className="text-yellow-400 text-xl">//</span>
             </p>
             <h1 className="text-3xl md:text-6xl font-light leading-tight uppercase">
-              <span className="font-black text-yellow-400">Эвакуатор</span> <br /><span className="font-black text-yellow-400">такси</span> круглосуточно трасса <span className="font-black text-yellow-400">Е95</span>
+              <span className="font-black text-yellow-400">Эвакуатор</span> <br /><span className="font-black text-yellow-400">такси, шиномонтаж</span> круглосуточно <span className="font-black text-yellow-400">Троицкое-Е95</span>
             </h1>
 
-            <h2 className="mt-6 text-md text-gray-200 text-balance">
+            <h2 className="mt-6 text-lg text-gray-200 text-balance">
               Вызов эвакуатора и автопомощь на Е-95: <br /> оперативный выезд в любой район круглосуточно 24/7
             </h2>
             <div className="flex gap-4 mt-10">

@@ -13,10 +13,11 @@ import ServiceSchema from "./components/ServiceShema";
 import Call from "./components/Call";
 
 export const metadata = {
-  title: "Эвакуатор,такси, Е-95 АвтоСервис ",
+  title: "Эвакуатор,такси,СТО Е-95 АвтоСервис Троицкое",
   description:
-    "Эвакуатор в Кривом Озере, Любашевке и Ширяево. Быстрая подача за 15–30 минут. Работаем круглосуточно 24/7. Помощь при ДТП, поломке и перевозке авто.",
+    "Эвакуатор в Троицкое, Кривом Озере, Любашевке и Ширяево. Быстрая подача за 15–30 минут. Работаем круглосуточно 24/7. Помощь при ДТП, поломке и перевозке авто.",
   keywords: [
+    "эвакуатор Троицкое",
     "эвакуатор Кривое Озеро",
     "эвакуатор Любашевка",
     "эвакуатор Ширяево",
@@ -40,7 +41,7 @@ export const metadata = {
     canonical: "https://joyful-blini-28a6ab.netlify.app/",
   },
   openGraph: {
-    title: "Е-95 AVTOSERVICE, такси, эвакуатор 24/7",
+    title: "Е-95 AVTOSERVICE, такси,СТО, эвакуатор 24/7 Троицкое",
     description:
       "Срочная эвакуация , такси трасса Е-95",
     url: "https://joyful-blini-28a6ab.netlify.app/",
@@ -50,11 +51,24 @@ export const metadata = {
         url: "https://joyful-blini-28a6ab.netlify.app/images/og.png",
         width: 1200,
         height: 630,
-        alt: "Эвакуатор AutoHelp 24",
+        alt: "Е-95 AVTOSERVICE",
       },
     ],
     locale: "ru_UA",
     type: "website",
+  },
+
+  // 🔥 ВАЖНО: GEO META
+  other: {
+    "geo.region": "UA-51", // Одесская область
+    "geo.placename": "Troitske, Odesa Oblast",
+    "geo.position": "47.647677;30.309478",
+    ICBM: "47.647677, 30.309478",
+
+    "business:contact_data:phone_number": "+380965446551",
+    "business:contact_data:country_name": "Ukraine",
+    "business:contact_data:locality": "Troitske",
+    "business:contact_data:region": "Odesa Oblast",
   },
 };
 
